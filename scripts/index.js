@@ -1,6 +1,6 @@
 import { phases, underPhase } from "./lists.js";
 
-var url = "../";
+var url = "../Ciphered/";
 window.history.replaceState(null, document.title, url);
 
 var CipheredNFS = document.getElementById("GmtlivihNFS");

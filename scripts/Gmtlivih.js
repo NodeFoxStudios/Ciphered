@@ -1,6 +1,6 @@
 import { encodeList, decodeList } from "./lists.js";
 
-var url = "../Gmtlivih";
+var url = "../Ciphered/Gmtlivih";
 window.history.replaceState(null, document.title, url);
 
 var PageLoaded = localStorage.getItem("PageLoaded");
