@@ -122,3 +122,19 @@ export var decodeList = {
     "#5a5dd2": "(",
     "#a0310a": ";",
 };
+
+export var phases = [
+    "Flskhuhg - Qrgh Ira Vwxglrv",
+    "Ekrjgtgf - Pqfg Hqz Uvwfkqu",
+    "Djqifsfe - Opef Gpy Tuvejpt",
+    "Ciphered - Node Fox Studios",
+];
+
+export var underPhase = [
+    "",
+    "_",
+    "",
+    "_",
+    "",
+    "_",
+]

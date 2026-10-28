@@ -1,21 +1,13 @@
 import { encodeList, decodeList } from "./lists.js";
 
 var url = "../Gmtlivih";
-
-if(document.baseURI == "https://z4ckstudios.github.io/Ciphered/Gmtlivih.html") {
-    url = "../Ciphered/Gmtlivih";
-}
 window.history.replaceState(null, document.title, url);
 
 var PageLoaded = localStorage.getItem("PageLoaded");
 localStorage.setItem("PageLoaded", "true");
 
 if(PageLoaded == "true") {
-    if(document.baseURI == "http://127.0.0.1:5500/Gmtlivih") {
-        location.replace("../");
-    } else {
-        location.replace("../Ciphered/");
-    }
+    location.replace("../");
 }
 
 var portraitIndicator = document.getElementById("portraitIndicator");
